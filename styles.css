@@ -1,0 +1,47 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+header {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header :last-child {
+  text-align: center;
+  font-size: 2rem;
+}
+
+address {
+  text-transform: uppercase;
+}
+
+main {
+  flex-direction: column;
+  display: flex;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
