@@ -3,11 +3,13 @@
 }
 
 * {
+  border-radius: 1rem;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
 h1 {
+  padding: 1.5rem;
   font-size: 3.5rem;
 }
 
@@ -40,7 +42,37 @@ main {
   font-size: 2rem;
 }
 
+section h2 {
+  text-align: center;
+  background-color: wheat;
+  padding: 1.5rem;
+  /* TODO: Add a span to the h2 so this works (https://www.impressivewebs.com/centered-heading-horizontal-line/ Method 3) 
+  background: linear-gradient( 
+    #ffffff 0%,
+    #ffffff 49%,
+    #000000 50%,
+    #000000 51%,
+    #ffffff 52%,
+    #ffffff 100%
+  ); */
+}
+
+/* TODO: add icons above each section */
+section {
+  margin: 0 10rem;
+  padding: 0 5rem;
+}
+
+section:first-child {
+  padding-top: 1rem;
+}
+
+ul li ul {
+  list-style-type: none;
+}
 footer {
+  background-color: wheat;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-self: center;
