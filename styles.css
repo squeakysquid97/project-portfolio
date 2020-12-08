@@ -1,39 +1,51 @@
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 1.5vh;
+  }
+  header {
+    display: inline;
+  }
+  header address,
+  header p {
+    font-size: 1.5vh;
+  }
+}
+
 :root {
   font-size: 62.5%;
 }
 
 * {
-  border-radius: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Bodoni MT", serif;
   box-sizing: border-box;
-}
-
-h1 {
-  padding: 1.5rem;
-  font-size: 3.5rem;
+  border-radius: 1rem;
 }
 
 h1,
 h2,
 h3 {
   text-transform: uppercase;
+  font-family: "Didot", sans-serif;
 }
 
 header {
-  font-size: 2rem;
+  font-size: 1vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
 
-header :last-child {
-  text-align: center;
-  font-size: 2rem;
+header h1 {
+  background: #203a6b;
+  color: #e4e7ed;
+  margin: 0 3rem;
+  padding: 1.5rem 1.5rem;
+  font-size: 3.5vh;
 }
 
-address {
-  text-transform: uppercase;
+header p {
+  padding: 1.5rem;
+  font-size: 1.6vh;
 }
 
 main {
@@ -43,8 +55,10 @@ main {
 }
 
 section h2 {
+  font-size: 2rem;
   text-align: center;
-  background-color: wheat;
+  border-bottom: 1px solid black;
+  border-radius: 0;
   padding: 1.5rem;
   /* TODO: Add a span to the h2 so this works (https://www.impressivewebs.com/centered-heading-horizontal-line/ Method 3) 
   background: linear-gradient( 
@@ -57,7 +71,7 @@ section h2 {
   ); */
 }
 
-/* TODO: add icons above each section */
+/* TODO: add icons above each section; will require empty span elements */
 section {
   margin: 0 10rem;
   padding: 0 5rem;
@@ -71,8 +85,9 @@ ul li ul {
   list-style-type: none;
 }
 footer {
-  background-color: wheat;
-  font-size: 1.5rem;
+  background: #203a6b;
+  color: #e4e7ed;
+  font-size: 1.5vh;
   display: flex;
   justify-content: center;
   align-self: center;
