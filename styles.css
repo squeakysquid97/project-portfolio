@@ -33,6 +33,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 header h1 {
@@ -43,7 +44,8 @@ header h1 {
   font-size: 3.5vh;
 }
 
-header p {
+header p,
+header address {
   padding: 1.5rem;
   font-size: 1.6vh;
 }
