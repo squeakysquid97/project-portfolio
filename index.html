@@ -4,163 +4,180 @@
 <head>
   <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <h1>Peter Franklin</h1>
-    <address>Fort Worth, TX </address>
-    <p>peter@kgfranklinjr.com</p>
-    <p>8327293038</p>
-    <p>
-      Willing to relocate: Anywhere<br>
-      Authorized to work in the US for any employer
-    </p>
+  <header class="header">
+    <h1 class="header__heading">Peter Franklin</h1>
+    <h2 class="header__heading--sub">Front End Developer</h2>
+    <div class="address__container">
+      <address class="address">Fort Worth, TX </address>
+      <p class="address__email">peter@kgfranklinjr.com</p>
+      <p class="address__phone">8327293038</p>
+      <p class="address__location">
+        Willing to relocate: Anywhere<br>
+        Authorized to work in the US for any employer
+      </p>
+
+    </div>
+    <div class="arrow__down"><a href="#start"><img class="arrow__down--image" src="/downArrow.png"></a></div>
   </header>
   <main>
-    <section class="section-work">
-      <h2>Work Experience</h2>
-      <h3> Support Analyst</h3>
-      <address> Apex Capital Corp - Fort Worth, TX</address>
-      <p>March 2019 to Present</p>
-      <p>In charge of working tier one support tickets and customer satisfaction. Assists with Top 5 tickets,
-        sharepoint development, deployment of Windows and Mac machines for various types of users.
-        Supports users on issues with VPNs, monitors, phones, and general computer troubleshooting. Also
-        assists with remote developers and users.</p>
-      <h3>Tech Support Representative</h3>
-      <address>ADT Security Services - Irving, TX</address>
-      <p>September 2018 to March 2019</p>
-      <p>In charge of taking a call, diagnosing issue, troubleshooting and resolving issue in one call. Capable
-        of taking 40+ calls daily, providing consistent solutions and customer service. Advanced training
-        on BOSCH and DMP Alarm Panel Programming and troubleshooting, having worked on accounts for
-        APPLE, COSTCO, GAMESTOP, etc. Also in charge of downloading to customers panels to make code and
-        programming changes remotely.
-      </p>
-      <h3>Barista/Shift Supervisor</h3>
-      <address>Coffee Roasters - Fort Worth, TX</address>
-      <p>June 2016 to September 2018</p>
-      <p>In charge of cash handling, customer satisfaction and support, conflict resolution, administrative work
-        and quality control.
-      </p>
-
-
-      <h3>Server and Bartender</h3>
-      <address>Bistro - Fort Worth, TX</address>
-      <p>January 2016 to July 2016</p>
-      <p>Focused on quality control, accuracy of orders and customer satisfaction, as well as cash handling and
-        conflict resolution.
-      </p>
-      <h3>Barista/Shift Supervisor</h3>
-      <address>Starbucks - Cypress, TX</address>
-      <p>August 2014 to January 2016</p>
-      <p>In charge of cash handling, customer satisfaction and support, conflict resolution, administrative work
-        and quality control. Also responsible for daily food order distribution and management.
-      </p>
+    <section class="main__container" id="start">
+      <h2 class="main__heading"><span>Work Experience</span></h2>
+      <div class="main__container--card">
+        <h3 class="main__title"> Support Analyst</h3>
+        <address class="address"> Apex Capital Corp - Fort Worth, TX</address>
+        <p class="main__date">March 2019 to Present</p>
+        <p class="main__paragraph">In charge of working tier one support tickets and customer satisfaction. Assists with
+          Top 5
+          tickets,
+          sharepoint development, deployment of Windows and Mac machines for various types of users.
+          Supports users on issues with VPNs, monitors, phones, and general computer troubleshooting. Also
+          assists with remote developers and users.</p>
+        <h3 class="main__title">Tech Support Representative</h3>
+        <address class="address">ADT Security Services - Irving, TX</address>
+        <p>September 2018 to March 2019</p>
+        <p>In charge of taking a call, diagnosing issue, troubleshooting and resolving issue in one call. Capable
+          of taking 40+ calls daily, providing consistent solutions and customer service. Advanced training
+          on BOSCH and DMP Alarm Panel Programming and troubleshooting, having worked on accounts for
+          APPLE, COSTCO, GAMESTOP, etc. Also in charge of downloading to customers panels to make code and
+          programming changes remotely.
+        </p>
+        <h3 class="main__title">Barista/Shift Supervisor</h3>
+        <address class="address">Avoca Coffee Roasters - Fort Worth, TX</address>
+        <p>June 2016 to September 2018</p>
+        <p>In charge of cash handling, customer satisfaction and support, conflict resolution, administrative work
+          and quality control.
+        </p>
+        <h3 class="main__title">Server and Bartender</h3>
+        <address class="address">Bistro - Fort Worth, TX</address>
+        <p>January 2016 to July 2016</p>
+        <p>Focused on quality control, accuracy of orders and customer satisfaction, as well as cash handling and
+          conflict resolution.
+        </p>
+        <h3 class="main__title">Barista/Shift Supervisor</h3>
+        <address class="address">Starbucks - Cypress, TX</address>
+        <p>August 2014 to January 2016</p>
+        <p>In charge of cash handling, customer satisfaction and support, conflict resolution, administrative work
+          and quality control. Also responsible for daily food order distribution and management.
+        </p>
+      </div>
     </section>
-    <section class="section-education">
-      <h2>Education</h2>
-      <p>High school or equivalent in Web Development</p>
-      <address>Weatherford College - Weatherford, TX</address>
-      <p>August 2016 to May 2017</p>
+    <section class="main__container">
+      <h2 class="main__heading"><span>Education</span></h2>
+      <div class="main__container--card">
+        <p>High school or equivalent in Web Development</p>
+        <address class="address">Weatherford College - Weatherford, TX</address>
+        <p>August 2016 to May 2017</p>
+      </div>
     </section>
-    <section class="section-skills ">
-      <h2>Skills</h2>
-      <ul>
-        <li>Microsoft Office (1 year)</li>
-        <li>Photography (3 years)</li>
-        <li>Management (3 years)</li>
-        <li>Customer Service (3 years)</li>
-        <li>Administrative Support (1 year)</li>
-        <li>Data Entry (Less than 1 year)</li>
-        <li>Dreamweaver (Less than 1 year)</li>
-        <li>Conflict Resolution (3 years)</li>
-        <li>Web Design (1 year)</li>
-        <li>Computer Hardware (1 year)</li>
-        <li>Troubleshooting (3 years)</li>
-        <li>Windows Server (Less than 1 year)</li>
-        <li>Vmware (Less than 1 year)</li>
-        <li>HTML 5 (2 years)</li>
-        <li>Group Policy (Less than 1 year)</li>
-        <li>Javascript (1 year)</li>
-        <li>Python (Less than 1 year)</li>
-        <li>CSS (2 years)</li>
-        <li>Food Service</li>
-        <li>Shift Supervisor</li>
-        <li>BOSCH Alarm Panel Programming (1 year)</li>
-        <li>DMP Alarm Panel Programming (1 year)</li>
-        <li>HONEYWELL Alarm Panel Programming (1 year)</li>
-        <li>Data Entry (1 year)</li>
-        <li>Call Center (1 year)</li>
-        <li>Network Troubleshooting (1 year)</li>
-        <li>Wire Troubleshooting (1 year)</li>
-        <li>Help Desk</li>
-        <li>Service Desk</li>
-        <li>Tech Support</li>
-        <li>Helpdesk Support</li>
-        <li>Front End (2 years)</li>
-        <li>Javascript (1 year)</li>
-        <li>HTML (2 years)</li>
-        <li>Active Directory (1 year)</li>
-        <li>Windows Deployement (Less than 1 year)</li>
-        <li>SharePoint (Less than 1 year)</li>
-        <li>Desktop Support</li>
-        <li>Remote Access Software</li>
-        <li>Operating Systems</li>
-        <li>WordPress (Less than 1 year)</li>
-      </ul>
+    <section class="main__container">
+      <h2 class="main__heading"><span>Skills</span></h2>
+      <div class="main__container--card">
+        <ul>
+          <li>Microsoft Office (1 year)</li>
+          <li>Photography (3 years)</li>
+          <li>Management (3 years)</li>
+          <li>Customer Service (3 years)</li>
+          <li>Administrative Support (1 year)</li>
+          <li>Data Entry (Less than 1 year)</li>
+          <li>Dreamweaver (Less than 1 year)</li>
+          <li>Conflict Resolution (3 years)</li>
+          <li>Web Design (1 year)</li>
+          <li>Computer Hardware (1 year)</li>
+          <li>Troubleshooting (3 years)</li>
+          <li>Windows Server (Less than 1 year)</li>
+          <li>Vmware (Less than 1 year)</li>
+          <li>HTML 5 (2 years)</li>
+          <li>Group Policy (Less than 1 year)</li>
+          <li>Javascript (1 year)</li>
+          <li>Python (Less than 1 year)</li>
+          <li>CSS (2 years)</li>
+          <li>Food Service</li>
+          <li>Shift Supervisor</li>
+          <li>BOSCH Alarm Panel Programming (1 year)</li>
+          <li>DMP Alarm Panel Programming (1 year)</li>
+          <li>HONEYWELL Alarm Panel Programming (1 year)</li>
+          <li>Data Entry (1 year)</li>
+          <li>Call Center (1 year)</li>
+          <li>Network Troubleshooting (1 year)</li>
+          <li>Wire Troubleshooting (1 year)</li>
+          <li>Help Desk</li>
+          <li>Service Desk</li>
+          <li>Tech Support</li>
+          <li>Helpdesk Support</li>
+          <li>Front End (2 years)</li>
+          <li>Javascript (1 year)</li>
+          <li>HTML (2 years)</li>
+          <li>Active Directory (1 year)</li>
+          <li>Windows Deployement (Less than 1 year)</li>
+          <li>SharePoint (Less than 1 year)</li>
+          <li>Desktop Support</li>
+          <li>Remote Access Software</li>
+          <li>Operating Systems</li>
+          <li>WordPress (Less than 1 year)</li>
+        </ul>
+      </div>
     </section>
-    <section class="section-certification">
-      <h2>Certifications Licenses and Assessments</h2>
-      <ul>
-        <li>Food Handler</li>
-        <li>Audiocodes Certified Associate
-          <ul>
-            <li>
-              <p>June 2020 to Present</p>
-            </li>
-            <li>ACA is the basic level certification required for the installation and maintenance of AudioCodes CPE &
-              Access Media Gateways in different customer scenarios.</li>
-          </ul>
-        </li>
-        <li>CodeAcademy Learn HTML
-          <ul>
-            <li>
-              <p>August 2018 to Present</p>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <h3>Assessments</h3>
-      <ul>
-        <li>
-          Programming Fundamentals — Proficient
-          <ul>
-            <li>
-              <p>September 2020</p>
-            </li>
-            <li>Designed by engineering managers and real-world employers, this test gives you hard data points to
-              evaluate technical competency.</li>
-            <li>Full results: Proficient</li>
-          </ul>
-        </li>
-        <li>Java — Proficient
-          <ul>
-            <li>
-              <p>September 2020</p>
-            </li>
-            <li>Designed by engineering managers & real-world employers, this Java test evaluates general technical
-              competency.</li>
-            <li>Full results: Proficient</li>
-          </ul>
-        </li>
-      </ul>
+    <section class="main__container">
+      <h2 class="main__heading"><span>Certifications Licenses and Assessments</span></h2>
+      <div class="main__container--card">
+        <ul>
+          <li>Food Handler</li>
+          <li>Audiocodes Certified Associate
+            <ul>
+              <li>
+                <p>June 2020 to Present</p>
+              </li>
+              <li>ACA is the basic level certification required for the installation and maintenance of AudioCodes CPE &
+                Access Media Gateways in different customer scenarios.</li>
+            </ul>
+          </li>
+          <li>CodeAcademy Learn HTML
+            <ul>
+              <li>
+                <p>August 2018 to Present</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3 class="main__title">Assessments</h3>
+        <ul>
+          <li>
+            Programming Fundamentals — Proficient
+            <ul>
+              <li>
+                <p>September 2020</p>
+              </li>
+              <li>Designed by engineering managers and real-world employers, this test gives you hard data points to
+                evaluate technical competency.</li>
+              <li>Full results: Proficient</li>
+            </ul>
+          </li>
+          <li>Java — Proficient
+            <ul>
+              <li>
+                <p>September 2020</p>
+              </li>
+              <li>Designed by engineering managers & real-world employers, this Java test evaluates general technical
+                competency.</li>
+              <li>Full results: Proficient</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
 </body>
 <footer>
-  <p>
-    Written and designed by Peter Franklin
-  </p>
+  <div class="header footer">
+    <p class="footer__heading">
+      Written and designed by Peter Franklin
+    </p>
+  </div>
 </footer>
 
 </html>
